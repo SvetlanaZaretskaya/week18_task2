@@ -1,0 +1,105 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-box {
+    max-width:300px;
+    background-color:rgb(255, 219, 254);
+    border-radius: 20px;
+    padding:15px;
+    margin: 0 auto;
+    border: 2px solid rgb(134, 1, 154);
+}
+
+.main-box {
+    text-align: center;
+    color:rgb(134, 1, 154);
+    margin-bottom:15px;
+}
+
+.buttons-box {
+    max-width:300px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+#addTask {
+    margin-bottom: 15px;
+    width: 210px;
+}
+
+.button {
+    font-size: 12px;
+    border-radius: 10px;
+    padding:7px;
+    width:90px;
+}
+
+.button-vrapper {
+    width: 210px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.add {
+    background-color: rgb(21, 246, 171);
+}
+
+.add:hover {
+    background-color: rgb(96, 251, 200);
+}
+
+.add:active {
+    background-color: rgb(0, 200, 133);
+}
+
+.delete {
+    background-color: rgb(255, 97, 97);
+}
+
+.delete:hover {
+    background-color: rgb(255, 137, 137);
+}
+
+.delete:active {
+    background-color: rgb(254, 56, 56);
+}
+
+ul {
+    text-align: left;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+.notification {
+    padding-top:10px;
+    color: grey;
+}
+
+.display-none {
+    display: none;
+}
+
+.display {
+    display: inline-block;
+}
+
+.disabled-button {
+    background-color: #adadad;
+}
+
+.disabled-button:hover {
+    background-color: #adadad;
+}
